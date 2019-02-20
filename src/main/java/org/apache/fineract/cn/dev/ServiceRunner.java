@@ -202,7 +202,7 @@ public class ServiceRunner {
       // start embedded MariaDB
       ServiceRunner.embeddedMariaDb = DB.newEmbeddedDB(
           DBConfigurationBuilder.newBuilder()
-              .setPort(3306)
+              .setPort(3307)
               .build()
       );
       ServiceRunner.embeddedMariaDb.start();
